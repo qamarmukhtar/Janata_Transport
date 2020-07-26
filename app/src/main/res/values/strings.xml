@@ -1,0 +1,83 @@
+<resources>
+    <string name="app_name">JanathaTransport</string>
+
+
+    <string name="continues">Continue</string>
+
+    <string name="textLogin">Login</string>
+    <string name="newUser">New User? Register here</string>
+
+    <string name="textReg">Register</string>
+    <string name="update">Update</string>
+    <string name="textphone">Phone</string>
+    <string name="textemail">Email Address</string>
+    <string name="textfname">Firstname</string>
+    <string name="textlname">Lastname</string>
+    <string name="alreadyUser">Already User? Login here</string>
+
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_splash">MainActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+
+    <string name="pick_from">Pick</string>
+    <string name="drop_at">Drop</string>
+
+    <!-- <string name="dist">Distance\t\t\t\t\t\t\t\t:</string>
+    <string name="price">Price\t\t\t\t\t\t\t\t\t\t\t:</string>
+    <string name="est_time">Estimated Time\t:</string>-->
+
+    <string name="dist">Distance</string>
+    <string name="price">Price</string>
+    <string name="est_time">Estimated Time</string>
+
+
+    <string name="half">Share</string>
+    <string name="full">Full</string>
+    <string name="book">Book Now</string>
+    <string name="ProceedbookSH">Proceed Bookings</string>
+    <string name="ProceedbookLHS">Proceed Booking</string>
+
+    <string name="action_settings">Settings</string>
+
+
+    <string-array name="labour">
+        <item>0 Labour Charge</item>
+        <item>1 Labour Charge</item>
+        <item>2 Labour Charge</item>
+        <item>3 Labour Charge</item>
+        <item>4 Labour Charge</item>
+        <item>5 Labour Charge</item>
+        <item>6 Labour Charge</item>
+        <item>7 Labour Charge</item>
+        <item>8 Labour Charge</item>
+        <item>9 Labour Charge</item>
+        <item>10 Labour Charge</item>
+    </string-array>
+
+    //welcome sliding screen show
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_title">Janatha Transport</string>
+    <string name="slide_1_desc">The easiest way to book a Vehicle from your nearest place!</string>
+
+    <string name="slide_2_title">Quick Book</string>
+    <string name="slide_2_desc">Booking Vehicle form your Source and Destination is easy!</string>
+
+    <string name="slide_3_title">Vehicle</string>
+    <string name="slide_3_desc">Best discounts on every single service we offer!</string>
+
+    <string name="slide_4_title">Get Started</string>
+    <string name="slide_4_desc">Book Vehicle for transportation!</string>
+
+    <string name="minimum_password">Password too short, enter minimum 8 characters!</string>
+    <string name="auth_failed">Authentication failed, check your email and password or sign up</string>
+
+
+
+</resources>

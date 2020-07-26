@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.codingspider.jantatransport.janttrans">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/jticon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:hardwareAccelerated="false"
+        android:largeHeap="true">
+
+        <!--
+            The API key for Google Maps-based APIs is defined as a string resource.
+            (See the file "res/values/google_maps_api.xml").
+            Note that the API key is linked to the encryption key used to sign the APK.
+            You need a different API key for each encryption key, including the release key that is used to
+            sign the APK for publishing.
+            You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".SplashScreen"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+              <action android:name="android.intent.action.MAIN" />
+
+              <category android:name="android.intent.category.LAUNCHER" />
+          </intent-filter>
+        </activity>
+
+
+        <activity android:name=".login_and_reg.LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.codingspider.jantatransport.janttrans.WelcomeActivity"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".login_and_reg.Choose_User" />
+        <activity android:name=".login_and_reg.Register_Activity" />
+        <activity android:name=".nav.OfferActivity" />
+        <activity android:name=".nav.SharingActivity" />
+        <activity android:name=".nav.AboutUs" />
+        <activity android:name=".nav.ContactUs" />
+        <!--
+            <activity
+            android:name=".activities.BookActivity"
+            android:theme="@style/AppTheme" />
+        -->
+        <activity android:name=".nav.Profile" />
+        <activity android:name=".book.ShareActivity" />
+        <activity android:name=".book.SuccessBooking_Page" />
+        <activity android:name=".activities.LHS" />
+        <!-- <activity android:name=".activities.Half_Share" /> -->
+        <activity android:name=".nav.Bookings" />
+        <activity android:name=".nav.Write_to_Us" />
+        <activity android:name=".activities.HS" />
+        <!-- <activity android:name=".activities.SimpleTabsActivity" /> -->
+        <activity android:name=".activities.BookShare" />
+        <activity android:name=".activities.Book_Less_Share" />
+        <activity android:name=".book.BookVehicle" />
+        <activity android:name=".book.ShareRecy_Book">
+
+        </activity>
+    </application>
+
+</manifest>
